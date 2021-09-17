@@ -73,6 +73,7 @@ class Calculator extends React.Component {
               <button type="button" className="col-3 d-flex justify-content-center align-items-center py-3 border  border-1">
                 3
               </button>
+
               <button type="button" className="col-3 d-flex justify-content-center align-items-center py-3 border  border-1 mathematical-operator">
                 +
               </button>
