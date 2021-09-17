@@ -1,6 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min';
+import calculate from '../logic/calculate';
+import PropTypes from 'prop-types';
 
 class Calculator extends React.Component {
   constructor(props) {
