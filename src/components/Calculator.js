@@ -36,7 +36,6 @@ export default class Calculator extends React.Component {
     } else if (total === null && next === null) {
       result = 0;
     }
-
     return result;
   }
 
