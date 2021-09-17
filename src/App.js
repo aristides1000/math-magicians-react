@@ -1,27 +1,35 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min';
 import Calculator from './components/Calculator';
 
 class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      operatingVariable: true,
+      element: {
+        next: null,
+        operation: null,
+        total: null,
+      },
     };
+    this.updateState = this.updateState.bind(this);
+  }
+
+  updateState(object) {
+    this.setState(
+      { element: object },
+    );
   }
 
   render() {
-    const { operatingVariable } = this.state;
-    if (operatingVariable) {
-      return (
-        <Calculator />
-      );
-    }
+    const { element } = this.state;
     return (
-      <Calculator />
+      <div>
+        <Calculator
+          updateState={this.updateState}
+          element={element}
+        />
+      </div>
     );
   }
 }
-
 export default App;
