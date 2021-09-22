@@ -8,3 +8,8 @@
 .mathematical-operator {
   background-color: rgb(245, 145, 62);
 }
+
+.active-link {
+  color: orangered;
+  text-decoration: underline;
+}

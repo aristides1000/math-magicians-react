@@ -45,9 +45,9 @@ export default function Calculator(props) {
   return (
     <div className="container" id="calculator">
       <div className="row d-flex justify-content-center">
-        <div className="col-4">
+        <div className="w-75">
           <div className="row mt-5">
-            <div className="col-12 text-end display-result px-1 border  border-1">
+            <div className="col-12 text-end display-result px-1 border border-1">
               <p className="py-3 mb-0 fs-4 ">{ display(element) }</p>
             </div>
           </div>
