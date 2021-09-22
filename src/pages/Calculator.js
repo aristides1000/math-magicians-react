@@ -4,14 +4,16 @@ import 'bootstrap/dist/js/bootstrap.min';
 import App from '../App';
 
 const Calculator = () => (
-  <>
-    <div>
-      <h1>Hello from Calculator page</h1>
+  <div className="container-fluid px-3">
+    <div className="row">
+      <div className="col-6 pt-5">
+        <h2>Let&apos;s do some math!</h2>
+      </div>
+      <div className="col-6">
+        <App />
+      </div>
     </div>
-    <div>
-      <App />
-    </div>
-  </>
+  </div>
 );
 
 export default Calculator;
