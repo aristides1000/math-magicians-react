@@ -13,7 +13,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://aristides1000.github.io/math-magicians-react/)
+[Live Demo Link 1](https://aristides1000.github.io/math-magicians-react/)
 
 ## Getting Started
 1. Clone this repo on your local machine
