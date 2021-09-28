@@ -15,7 +15,7 @@
 
 [Live Demo Link Heroku](https://math-magicians-react-aristides.herokuapp.com/)
 
-[Live Demo Link Netlify](https://boring-kare-7450c1.netlify.app/)
+[Live Demo Link Netlify](https://upbeat-yalow-58a98b.netlify.app/)
 
 ## Getting Started
 1. Clone this repo on your local machine
