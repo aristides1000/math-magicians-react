@@ -14,6 +14,7 @@
 ## Live Demo
 
 [Live Demo Link Heroku](https://math-magicians-react-aristides.herokuapp.com/)
+
 [Live Demo Link Netlify](https://boring-kare-7450c1.netlify.app/)
 
 ## Getting Started
